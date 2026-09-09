@@ -99,6 +99,15 @@ ltcmweb1qq2w04hwfuu7w427w4v7antkfrf62mf4xe7xlf6tlawu2clfqkh9gxqj8tnw48km802tzx3t
 
 ---
 
+## Security & Signatures
+
+Release APKs are signed with the following certificate fingerprints:
+
+- **SHA-256:** `DF:02:AD:DA:BD:BF:11:CC:BE:31:E7:F0:BA:8F:CC:C2:54:23:1A:92:8D:F5:E0:54:38:04:56:9D:D5:CC:72:DA`
+- **SHA-1:** `6E:14:BC:1B:EF:C2:31:C9:28:95:A6:8F:F6:A8:1C:C2:BD:73:C9:14`
+
+---
+
 ## License
 
 This software is released under the terms of
