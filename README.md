@@ -66,7 +66,7 @@ partially** implemented and may change.
 * Easily direction (`camera:direction`) editing
 * `camera:mount` `camera:type` specification
 * `surveillance`, `surveillance:type` and `surveillance:zone` specification
-* NSI support for camera types
+* [NSI](https://nsi.guide/) support for camera types
 
 ### Proxy
 
