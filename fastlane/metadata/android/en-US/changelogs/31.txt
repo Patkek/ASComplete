@@ -1,0 +1,8 @@
+- Advanced Proxy Support: SOCKS and HTTP proxy support
+- New Language: Indonesian, with thanks to @q1t0
+- New Quest: Camera Mount quest
+- Focus on POI: Move the camera to a POI while on quests
+- About Page: Display app information, including credits
+- Improved Quest Dialogs: Move quest dialogs to the bottom for better POI visibility
+- Improved Localizations
+- Increased Support for F-Droid Builds

@@ -1,0 +1,13 @@
+First Release of ASComplete!
+
+Features:
+- Proxy support: Route network traffic to OpenStreetMap servers through a proxy.
+- Authentication: Authorize the application with OpenStreetMap directly in the app.
+- Navigate: Navigate the map with zoom, drag, and rotation controls.
+- Add Surveillance Elements: Add POIs using searchable presets.
+- Direct Tag Editing: Edit element tags directly.
+- Quests Support: Complete quests for surveillance elements.
+- camera:direction Quest: Use an interactive UI to specify camera direction.
+- Download and Upload: Download OpenStreetMap elements and upload changes directly in the app.
+- Map Styles: Choose between different map styles, including Esri.
+- GPS Tracking: Use native location tracking.

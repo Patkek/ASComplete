@@ -26,6 +26,7 @@
     </a>
   </p>
 </div>
+<br>
 
 An Android [OpenStreetMap](https://www.openstreetmap.org/) Anti-Surveillance surveying application
 built with **Jetpack Compose**
@@ -39,11 +40,14 @@ The app is designed for adding points of interests to the OSM database easily.
   </a>
 </p>
 
-[//]: # (## Screenshots)
-
-[//]: # (Later.. :/ )
-
-[//]: # (---)
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="180" />
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="180" />
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="180" />
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/4.png" width="180" />
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/5.png" width="180" />
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="180" />
+</p>
 
 > [!NOTE]
 > **Work in progress**
@@ -78,21 +82,24 @@ partially** implemented and may change.
 
 You can help by donating, contributing code, translating, or by telling others about it.
 
-Build instructions: [docs/INSTALL.md](docs/INSTALL.md)
-Contribution guide: [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
+- Build instructions: [docs/INSTALL.md](docs/INSTALL.md)
+- Contribution guide: [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
 
 ---
 
 ## Donate
 
-ASComplete is free and open source. If you find it useful, you can support its development by donation:
+ASComplete is free and open source. If you find it useful, you can support its development by
+donation:
 
 **Monero (XMR)**
+
 ```text
 8BSr4criBAVf7z9PaawLFYbiSk1GYtxcA65YrJa89DHmGYFZHisAF9NWxxpeYnTSsUCqJh7kWf9rxhCdycRs9rET53bPJsY
 ```
 
 **Litecoin (LTC, MWEB)**
+
 ```text
 ltcmweb1qq2w04hwfuu7w427w4v7antkfrf62mf4xe7xlf6tlawu2clfqkh9gxqj8tnw48km802tzx3tcqk9ukhx623dqpflx7se9h27j7z2gkvs585ckkd62
 ```
@@ -103,7 +110,8 @@ ltcmweb1qq2w04hwfuu7w427w4v7antkfrf62mf4xe7xlf6tlawu2clfqkh9gxqj8tnw48km802tzx3t
 
 Release APKs are signed with the following certificate fingerprints:
 
-- **SHA-256:** `DF:02:AD:DA:BD:BF:11:CC:BE:31:E7:F0:BA:8F:CC:C2:54:23:1A:92:8D:F5:E0:54:38:04:56:9D:D5:CC:72:DA`
+- **SHA-256:**
+  `DF:02:AD:DA:BD:BF:11:CC:BE:31:E7:F0:BA:8F:CC:C2:54:23:1A:92:8D:F5:E0:54:38:04:56:9D:D5:CC:72:DA`
 - **SHA-1:** `6E:14:BC:1B:EF:C2:31:C9:28:95:A6:8F:F6:A8:1C:C2:BD:73:C9:14`
 
 ---

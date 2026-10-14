@@ -37,7 +37,14 @@ to understand and reproduce the issue.
 ## Translations
 
 ASComplete translations are handled
-on [Codeberg Translate](https://translate.codeberg.org/projects/ascomplete/)
+on [Codeberg Translate](https://translate.codeberg.org/projects/ascomplete/). You can find detailed instructions on [information page](https://translate.codeberg.org/projects/ascomplete/#information).
+
+<details>
+    <summary>Translation Status</summary>
+    <a href="https://translate.codeberg.org/engage/ascomplete/">
+        <img src="https://translate.codeberg.org/widget/ascomplete/matrix-badge.svg" alt="Translation status">
+    </a>
+</details>
 
 ## Code Contributions
 
@@ -50,6 +57,19 @@ Code contributions are welcome. To contribute code:
 5. Test your changes to make sure they work as expected.
 6. Commit your changes with a clear and descriptive message.
 7. Push your branch and open a pull request.
+
+### Sign-off Requirement
+
+We require all commits to be signed off. This certifies that you wrote the patch or otherwise have the right to pass it on as an open-source patch.
+
+You can easily sign your commit by adding the `-s` (or `--signoff`) flag to your git commit command:
+
+```bash
+git commit -s -m "fix: bug in the map button"
+```
+
+This will automatically append a sign-off line to your commit message based on your configured Git user and email:
+`Signed-off-by: Jane Doe <jane@example.com>`
 
 In your pull request, explain:
 

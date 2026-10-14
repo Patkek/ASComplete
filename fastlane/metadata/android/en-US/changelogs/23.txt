@@ -1,0 +1,5 @@
+- Theme Support, Including Dynamic Color (Android 12+)
+- Language Support: English, Spanish, Swedish, Turkish
+- New Quest: Camera Type quest
+- Auto Download Data: Automatically download data as you move (Toggleable in the settings)
+- Improved Localizations

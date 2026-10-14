@@ -1,0 +1,25 @@
+ASComplete is an OpenStreetMap anti-surveillance surveying application designed to easily add, edit, and audit surveillance infrastructure in the OSM database.
+
+<b>Counter Surveillance Features:</b>
+<ul>
+  <li>Add camera nodes and surveillance POIs directly on the map</li>
+  <li>Interactive <b>camera:direction</b> estimation and editing</li>
+  <li>Specify mount type (<i>camera:mount</i>), camera type, surveillance type, and surveillance zones</li>
+  <li>NSI support for camera types</li>
+  <li>Quest system with a StreetComplete / EveryDoor style interface to quickly fill in missing surveillance tags</li>
+</ul>
+
+<b>Privacy & Network Controls:</b>
+<ul>
+  <li><b>Proxy Support:</b> Route all OpenStreetMap network traffic through a custom proxy</li>
+  <li>Direct in-app OpenStreetMap OAuth authentication</li>
+  <li>Direct download and upload of OpenStreetMap data changesets</li>
+</ul>
+
+<b>Map & Navigation:</b>
+<ul>
+  <li>Built with Jetpack Compose and MapLibre</li>
+  <li>Multiple tile layer map styles supported (including Esri)</li>
+  <li>Native GPS location tracking and interactive map controls</li>
+  <li>Direct element tag editing for advanced users</li>
+</ul>
