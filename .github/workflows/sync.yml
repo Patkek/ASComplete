@@ -63,7 +63,8 @@ jobs:
           
           # Only commit and push if there are actual changes
           if ! git diff --staged --quiet; then
-            git commit -m "Auto-sync selected files from Codeberg [skip ci]"
+            git commit -m "Auto-sync selected files from Codeberg [skip ci]" \
+                       -m "Co-authored-by: Patkek <230240617+Patkek@users.noreply.github.com>"
             git push
           else
             echo "No changes found. Skipping commit."
