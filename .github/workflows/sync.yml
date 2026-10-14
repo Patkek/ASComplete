@@ -1,0 +1,70 @@
+name: Sync Mirror from Codeberg
+
+on:
+  schedule:
+    # Runs at 00:00 every 2 days
+    - cron: '0 0 */2 * *'
+  workflow_dispatch: # trigger the sync manually at any time
+
+permissions:
+  contents: write # Required to push commits to the GitHub repo
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitHub Repository
+        uses: actions/checkout@v4
+
+      - name: Clone Codeberg Repository
+        run: |
+          git clone https://codeberg.org/Patkek/ASComplete.git codeberg-repo
+
+      - name: Filter Files and Modify README
+        run: |
+          # Enable extended pattern matching in bash
+          shopt -s extglob dotglob
+          
+          # Clear the GitHub repo's current files (except .git, .github, and the cloned codeberg-repo)
+          # This ensures old files that were deleted on Codeberg also get deleted on GitHub
+          rm -rf !(.|..|.git|.github|codeberg-repo)
+          
+          # Copy ONLY the allowed files/directories from the Codeberg repository
+          cp -r codeberg-repo/docs . 2>/dev/null || true
+          cp -r codeberg-repo/fastlane . 2>/dev/null || true
+          cp codeberg-repo/.gitignore . 2>/dev/null || true
+          cp codeberg-repo/CONTRIBUTORS . 2>/dev/null || true
+          cp codeberg-repo/LICENSE . 2>/dev/null || true
+          cp codeberg-repo/README.md . 2>/dev/null || true
+          
+          # Append the mirror notice to the end of the README
+          cat << 'EOF' >> README.md
+          
+          ---
+          
+          ## Source Code
+          
+          The source code for this project is **hosted on Codeberg**:
+          
+          [https://codeberg.org/Patkek/ASComplete](https://codeberg.org/Patkek/ASComplete)
+          
+          This GitHub repository is a mirror used for visibility and discovery.
+          EOF
+          
+          # Clean up the Codeberg clone so it doesn't get committed
+          rm -rf codeberg-repo
+
+      - name: Commit and Push to GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add -A
+          
+          # Only commit and push if there are actual changes
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-sync selected files from Codeberg [skip ci]"
+            git push
+          else
+            echo "No changes found. Skipping commit."
+          fi
