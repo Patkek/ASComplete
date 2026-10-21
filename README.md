@@ -36,7 +36,7 @@ The app is designed for adding points of interests to the OSM database easily.
 
 <p align="center">
   <a href="https://codeberg.org/Patkek/ASComplete/releases">
-    <img src="https://get-it-on.codeberg.org/get-it-on-blue-on-white.png" alt="Codeberg" width="160"/>
+    <img src="docs/badges/get-it-on-codeberg.svg" alt="Get it on Codeberg" width="160"/>
   </a>
 </p>
 
