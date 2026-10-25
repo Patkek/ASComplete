@@ -35,6 +35,9 @@ and
 The app is designed for adding points of interests to the OSM database easily.
 
 <p align="center">
+  <a href="https://f-droid.org/en/packages/org.codeberg.patkek.ascomplete">
+    <img src="docs/badges/get-it-on-f-droid.svg" alt="Get it on F-Droid" width="160"/>
+  </a>
   <a href="https://codeberg.org/Patkek/ASComplete/releases">
     <img src="docs/badges/get-it-on-codeberg.svg" alt="Get it on Codeberg" width="160"/>
   </a>
@@ -50,10 +53,9 @@ The app is designed for adding points of interests to the OSM database easily.
 </p>
 
 > [!NOTE]
-> **Work in progress**
->
-> Project is currently under active development. Some features shown below are **planned or
-partially** implemented and may change.
+> **Road to v1.0.0 Stable Release**
+> 
+> The basic structure and core features are complete! We are currently working through the QA checklist in [Issue #1](https://codeberg.org/Patkek/ASComplete/issues/1) before officially releasing `v1.0.0`. If you would like to help get us to the finish line, volunteer testing and contributions on that issue are highly appreciated!
 
 ---
 
