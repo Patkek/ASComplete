@@ -1,0 +1,8 @@
+- Name Suggestion Index (NSI) support for new POIs
+- Recents and Templates support
+- New Quest: Surveillance quest
+- New Quest: Surveillance:zone quest
+- New Quest: Surveillance:type quest
+- Edit tags directly on quest menus
+- Export changes as .osc
+- Improved Localizations
