@@ -5,4 +5,5 @@
 - New Quest: Surveillance:type quest
 - Edit tags directly on quest menus
 - Export changes as .osc
+- New Language: Russian, with thanks to @Xapitonov
 - Improved Localizations
