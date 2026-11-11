@@ -52,11 +52,6 @@ The app is designed for adding points of interests to the OSM database easily.
   <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/6.png" width="180" />
 </p>
 
-> [!NOTE]
-> **Road to v1.0.0 Stable Release**
-> 
-> The basic structure and core features are complete! We are currently working through the QA checklist in [Issue #1](https://codeberg.org/Patkek/ASComplete/issues/1) before officially releasing `v1.0.0`. If you would like to help get us to the finish line, volunteer testing and contributions on that issue are highly appreciated!
-
 ---
 
 ## Features
