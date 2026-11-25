@@ -1,0 +1,4 @@
+- Speed Camera support: Add/Edit highway=speed_camera's directly in-app
+- New Quest: Speed Camera Direction (direction) quest
+- New Quest: Speed Camera Maxspeed (maxspeed) quest
+- Improved Localizations
